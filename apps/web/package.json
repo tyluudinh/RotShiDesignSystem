@@ -1,0 +1,29 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@rotshi/uikit": "*",
+    "next": "latest",
+    "next-axiom": "^0.17.0",
+    "next-themes": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^13.3.1",
+    "@types/node": "^17.0.12",
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "@vanilla-extract/next-plugin": "^2.1.2",
+    "eslint-config-custom": "*",
+    "tsconfig": "*",
+    "typescript": "^4.5.3"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "@rotshi/uikit",
+  "version": "0.0.0",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "description": "Set of UI components",
+  "sideEffects": [
+    "*.css.ts"
+  ],
+  "private": true,
+  "dependencies": {
+    "@types/lodash": "^4.14.194",
+    "@types/styled-components": "^5.1.26",
+    "@types/styled-system": "^5.1.16",
+    "framer-motion": "^10.12.4",
+    "lodash": "^4.17.21",
+    "styled-system": "^5.1.5"
+  },
+  "devDependencies": {
+    "@rotshi/ui": "*",
+    "@types/react": "^18.2.0",
+    "@vanilla-extract/recipes": "^0.4.0",
+    "react": "^18.2.0",
+    "styled-components": "^5.3.10"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
